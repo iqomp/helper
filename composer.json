@@ -1,0 +1,25 @@
+{
+    "name": "iqomp/helper",
+    "description": "Collection of global helper functions",
+    "type": "helper",
+    "version": "0.0.1",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iqbal Fauzi",
+            "email": "iqbalfawz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "./src/Functions.php"
+        ]
+    },
+    "require": {},
+    "scripts": {
+        "lint": "./vendor/bin/phpcs --standard=PSR12 src"
+    }
+}
